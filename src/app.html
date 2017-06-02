@@ -1,0 +1,15 @@
+<template>
+  <div class="row">
+    <div class="form-group col-xs-12">
+        <label class="control-label" for="mobile"></label>
+        <input class="col-xs-12" id="mobile" inputmask.bind="{ autoUnmask: true, alias:'phone'}" type="text" placeholder="Mobile number" value.bind="contact.mobile"/>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="form-group col-xs-12">
+        <label class="control-label" for="email"></label>
+        <input class="col-xs-12" id="email" inputmask.bind="{ autoUnmask: true, alias:'email'}" type="text" placeholder="Email address" value.bind="contact.email"/>
+    </div>
+  </div>
+</template>
